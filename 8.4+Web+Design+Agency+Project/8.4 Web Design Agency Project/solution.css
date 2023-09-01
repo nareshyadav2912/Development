@@ -20,6 +20,7 @@ footer {
 }
 
 .tile-image {
+  width: 10px;
   height: 200px;
   float: left;
   margin-right: 50px;
