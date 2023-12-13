@@ -11,22 +11,23 @@
 // ar.push(1)
 // ar.pop()
 // console.log(ar)
-var ans=[];
-function fizbuzz(cnt){
-    for(var i=1;i<=cnt;i++){
-        if(i%3==0) {
+var ans = [];
+function fizbuzz(cnt) {
+    for (var i = 1; i <= cnt; i++) {
+        if (i % 3 == 0) {
             ans.push("Fizz");
         }
-        else if(i%5==0){
+        else if (i % 5 == 0) {
             ans.push("Buzz");
         }
-        else if(i%3==0 && i%5==0) {
+        else if (i % 3 == 0 && i % 5 == 0) {
             ans.push("FizzBuzz");
         }
-        else{
+        else {
             ans.push(i);
         }
     }
 }
 fizbuzz(10)
+console.log("My String:" + 5 + 9)
 console.log(ans)
